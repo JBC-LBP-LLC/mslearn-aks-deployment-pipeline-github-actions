@@ -51,5 +51,5 @@ jobs:
             --namespace staging \
             contoso-website \
             ./kubernetes/contoso-website \
-            --set image.repository=${{ secrets.ACR_NAME }} \
-            --set dns.name=${{ secrets.DNS_NAME }}
+            --set image.repository=ContosoContainerRegistry18360 \
+            --set dns.name=c16bfcf6bf894c6c8b24.eastus.aksapp.io
